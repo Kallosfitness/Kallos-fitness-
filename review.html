@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reviews - Kallos Fitness</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: white;
+    }
+
+    .header {
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header h1 {
+      color: #00bfff;
+      margin: 0;
+    }
+
+    .header p {
+      margin: 5px 0 0;
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #00bfff;
+      font-weight: bold;
+    }
+
+    .nav a:hover {
+      color: white;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .content h2 {
+      color: #00bfff;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      font-size: 17px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .video-review-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+
+    .video-review-grid video {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #00bfff;
+    }
+
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .review-card {
+      background-color: #2a2a2a;
+      border-radius: 10px;
+      padding: 20px;
+      border: 1px solid #00bfff;
+    }
+
+    .review-card h4 {
+      margin: 0 0 10px;
+      color: #00bfff;
+    }
+
+    .stars {
+      color: gold;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .review-card p {
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    .footer {
+      background-color: #222;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Kallos Fitness</h1>
+    <p>Train Hard. Stay Strong. Be Confident.</p>
+  </div>
+
+  <!-- Navigation -->
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="workouts.html">Workout Plans</a>
+    <a href="nutrition.html">Nutrition Tips</a>
+    <a href="review.html">Reviews</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2>Website Feedback</h2>
+    <p class="intro">Several users have visited and explored the Kallos Fitness website. Here's what they had to say about their experience:</p>
+
+    <!-- Video Reviews -->
+    <h2>Video Interviews</h2>
+    <div class="video-review-grid">
+      <video controls>
+        <source src="review1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="review2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="review3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Written Reviews -->
+    <div class="review-grid">
+      <div class="review-card">
+        <h4>Ali - Student</h4>
+        <div class="stars">★★★★★</div>
+        <p>The website is very helpful. I liked the workout plan for beginners and the images were very clear. Great job!</p>
+      </div>
+
+      <div class="review-card">
+        <h4>Miss Sara - Teacher</h4>
+        <div class="stars">★★★★☆</div>
+        <p>Very well organized! Clear language and clean design. Maybe add a few more interactive features like a video.</p>
+      </div>
+
+      <div class="review-card">
+        <h4>Zayn - Teen Gym Member</h4>
+        <div class="stars">★★★★★</div>
+        <p>I’ve been trying calisthenics and this site made it simple to follow. I used the workout plan after school!</p>
+      </div>
+
+      <div class="review-card">
+        <h4>Noor - Peer Reviewer</h4>
+        <div class="stars">★★★★☆</div>
+        <p>The nutrition page was my favorite. It had useful tips and the photos helped me understand what to eat before and after workouts.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 Kallos Fitness | Created by a Year 9 Student</p>
+  </div>
+
+</body>
+</html>

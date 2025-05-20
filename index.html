@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kallos Fitness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        .header {
+            background-color: #222;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: #00bfff;
+            margin: 0;
+        }
+
+        .nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #00bfff;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            color: white;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: #262626;
+            padding: 30px 10px;
+        }
+
+        .side-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .hero-text {
+            text-align: center;
+            padding: 20px;
+            max-width: 500px;
+        }
+
+        .hero-text h2 {
+            font-size: 48px;
+            font-weight: bold;
+            color: #00bfff;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #00bfff;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0099cc;
+        }
+
+        .intro {
+            background-color: #1f1f1f;
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        .intro h3 {
+            font-size: 28px;
+            color: #00bfff;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .footer {
+            background-color: #222;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        @media (max-width: 900px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .hero-text h2 {
+                font-size: 32px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+
+            .intro p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Kallos Fitness</h1>
+    <p><em>Train Hard. Stay Strong. Be Confident.</em></p>
+</div>
+
+<!-- Navigation -->
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="workouts.html">Workout Plans</a>
+    <a href="nutrition.html">Nutrition Tips</a>
+    <a href="review.html">Reviews</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<!-- Main Hero Section with Side Images -->
+<div class="main-content">
+    <img src="left-wall.jpg" alt="Gym Wall Left" class="side-img">
+    
+    <div class="hero-text">
+        <h2>Welcome to Kallos Fitness</h2>
+        <a href="workouts.html" class="btn">Explore Workout Plans</a>
+    </div>
+    
+    <img src="right-wall.jpg" alt="Gym Wall Right" class="side-img">
+</div>
+
+<!-- Intro Section -->
+<div class="intro">
+    <h3>What is Kallos Fitness?</h3>
+    <p>Kallos Fitness is built for young people who want to grow stronger, faster, and more confident. This platform offers workout plans, fitness tips, and motivation to help you reach your goals and become your best self — physically and mentally.</p>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>&copy; 2025 Kallos Fitness | Created by a Year 9 Student</p>
+</div>
+</body>
+</html>
